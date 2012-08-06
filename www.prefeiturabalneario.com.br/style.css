@@ -101,3 +101,45 @@ td { vertical-align: top; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+
+body{
+  background: url(img/bg-body.png);
+  font-family: 'Play', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0px 0px 10px 0px;
+}
+
+h1 a{
+  width: 240px; height: 225px;
+  background: url(img/logo.png);
+  display: block;
+  text-indent: -9999px;
+}
+.conteudo-header, .conteudo-main, .conteudo-footer{
+  width: 980px; margin: auto;
+}
+.box-header{
+  background: #2b2b2c;
+  padding: 20px;
+  border-bottom: 10px solid #0f62ac;
+  color: #fff;
+  width: 200px;
+}
+.col-dir{
+  width: 720px;
+  float: left;
+}
+.col-esq{
+  width: 240px;
+  margin-right: 20px;
+  float: left
+}
+.box-banner{
+  background: #2b2b2c;
+  padding: 20px;
+  border-bottom: 3px solid #0f62ac;
+  color: #fff;
+}
